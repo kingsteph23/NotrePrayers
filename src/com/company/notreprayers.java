@@ -1,10 +1,14 @@
 package com.company;
 import java.time.format.DateTimeFormatter;
-import java.util.Arrays;
+// allows for the functioning of arraylist
 import java.util.ArrayList;
 import java.util.Scanner;
+// Allows displaying of random quotes(personal or a quote from a famous person)
 import java.util.Random;
+// Allows me to display time/current day/day of the week.
+//Hell, even times zones(current time zone or even other time zones like JST(Japanese standard time
 import java.time.*;
+
 public class notreprayers {
     public static void main(String[] args) {
         // title🇭🇷🇭🇷
@@ -60,9 +64,9 @@ croatprayers.add("\"Slava Ocu, " +
                 "\nudjeli da nasljedujemo sto ona sadrze i postignemo sto ona obecavaju. Po Kristu Gospodinu nasem.\"");
 
 System.out.println();
-        // generating random players
+        // generating random prayers
         int apex = (int)(Math.random() * croatprayers.size());
-// outputing actual quotes
+// outputting actual quotes
 System.out.println("Prayer of the day\uD83C\uDDF7\uD83C\uDDED\uD83C\uDDF7\uD83C\uDDF7\uD83C\uDDED\uD83C\uDDF7: " +
         "\n" + croatprayers.get(apex));
 
